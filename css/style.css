@@ -1,0 +1,117 @@
+html, body {
+ margin: 0;
+ padding: 0;
+}
+@media (max-width: 500px) {
+  body {
+    color: red;
+  }
+}
+@media (orientation: landscape) and (max-width: 500px) {
+  body {
+    color: lightgrey;
+  }
+}
+.page1 {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+text-align: center;
+justify-content: center;
+}
+.page1 {
+ background-image:url('../img/haris-korovesis-iS2dlzcANHY-unsplash.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.page1 h1 {
+ color: white;
+ font-size: 70px;
+}
+ .typewriter {
+  color: white;
+  font-size: 33px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .5px solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 10s steps(13, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  10% { border-color: orange }
+}
+.page2 {
+ height: 100vh;
+ width: 100%;
+ background-color: lightgray;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.page2Main {
+  display: flex;
+align-items: center;
+justify-content: center;
+
+ background-color: white;
+width: 80%;
+height: 80vh;
+}
+.page2Part1 {
+  width: 40%;
+  height: 65vh;
+  background-color: white;
+  
+  
+}
+
+.part1Col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.part1Col1 img {
+  margin-top: 20px;
+  
+}
+.part1Col1 span {
+  font-weight: bold;
+}
+.part1Col1 p {
+  margin-top: 2 0px;
+  margin-left: 40px;
+  font-weight: 545;
+  margin-right: 70px;
+}
+.page2Part2 {
+  width: 40%;
+  height: 65vh;
+  background-color:white;
+  text-align: left;
+}
+.page2Part2 p {
+  font-size: 20px;
+}
+.page3 {
+  width: 100%;
+  height: 110vh;
+  background-color: lightgray;
+}
